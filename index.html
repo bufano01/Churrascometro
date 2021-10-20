@@ -10,13 +10,14 @@
   <body>
     <div class="borda">
       <h1>CHURRASCOMETRO</h1>
-      <input type="number" id="adultos" class="input" placeholder="Adultos" />
-      <input type="number" id="criancas" class="input" placeholder="Crianças" />
+      <input type="number" id="adultos" class="input" placeholder="Adultos" min="0" />
+      <input type="number" id="criancas" class="input" placeholder="Crianças" min="0" />
       <input
         type="number"
         id="duracao"
         class="input"
         placeholder="Duração(h)"
+        min="0"
       />
       <button id="calcular">Calcular</button>
       <div id="resultado"></div>
