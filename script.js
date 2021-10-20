@@ -20,6 +20,15 @@ function calc() {
       1500 * (parseInt(adultos.value) + parseInt(criancas.value) / 2);
     resultado.innerText = `${carne}g de carne \n ${cerveja}ml de cerveja \n ${bebida}ml de refrigerante `;
   }
+  if (adultos.value === "") {
+    resultado.innerText = "";
+  }
+  if (criancas.value === "") {
+    resultado.innerText = "";
+  }
+  if (duracao.value === "") {
+    resultado.innerText = "";
+  }
 }
 
 calcular.addEventListener("click", calc);
