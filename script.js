@@ -12,7 +12,7 @@ function calc() {
     let bebida =
       1000 * (parseInt(adultos.value) + parseInt(criancas.value) / 2);
     resultado.innerText = `${carne/1000}kg de carne \n ${cerveja/1000}L de cerveja \n ${bebida/1000}L de refrigerante `;
-  } else {
+  } else if (duracao.value > 6)  {
     let carne = 650 * (parseInt(adultos.value) + parseInt(criancas.value) / 2);
     let cerveja =
       2000 * (parseInt(adultos.value) + parseInt(criancas.value) / 2);
