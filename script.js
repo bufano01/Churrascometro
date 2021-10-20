@@ -5,7 +5,7 @@ let calcular = document.getElementById("calcular");
 let resultado = document.getElementById("resultado");
 
 function calc() {
-  if (duracao.value < 6) {
+  if (duracao.value <= 6) {
     let carne = 400 * (parseInt(adultos.value) + parseInt(criancas.value) / 2);
     let cerveja =
       1200 * (parseInt(adultos.value) + parseInt(criancas.value) / 2);
