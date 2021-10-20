@@ -11,14 +11,14 @@ function calc() {
       1200 * (parseInt(adultos.value) + parseInt(criancas.value) / 2);
     let bebida =
       1000 * (parseInt(adultos.value) + parseInt(criancas.value) / 2);
-    resultado.innerText = `${carne}g de carne \n ${cerveja}ml de cerveja \n ${bebida}ml de refrigerante `;
+    resultado.innerText = `${carne/1000}kg de carne \n ${cerveja/1000}L de cerveja \n ${bebida/1000}L de refrigerante `;
   } else {
     let carne = 650 * (parseInt(adultos.value) + parseInt(criancas.value) / 2);
     let cerveja =
       2000 * (parseInt(adultos.value) + parseInt(criancas.value) / 2);
     let bebida =
       1500 * (parseInt(adultos.value) + parseInt(criancas.value) / 2);
-    resultado.innerText = `${carne}g de carne \n ${cerveja}ml de cerveja \n ${bebida}ml de refrigerante `;
+    resultado.innerText = `${carne/1000}kg de carne \n ${cerveja/1000}L de cerveja \n ${bebida/1000}L de refrigerante `;
   }
   if (adultos.value === "") {
     resultado.innerText = "";
