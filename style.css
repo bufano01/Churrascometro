@@ -1,0 +1,26 @@
+.borda {
+  background-color: aqua;
+  max-width: fit-content;
+  margin: auto;
+  padding: 20px;
+}
+#adultos {
+  display: block;
+}
+#criancas {
+  display: block;
+}
+
+#duracao {
+  display: block;
+}
+
+.input {
+  margin: auto;
+}
+#calcular {
+  margin-left: 75px;
+}
+h1 {
+  margin-top: 0;
+}
